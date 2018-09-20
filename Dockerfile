@@ -18,7 +18,7 @@ RUN apt-get update \
     php${PHP_VERSION}-intl php${PHP_VERSION}-bcmath php${PHP_VERSION}-json php${PHP_VERSION}-mbstring \
     php${PHP_VERSION}-pgsql php${PHP_VERSION}-imagick php${PHP_VERSION}-memcache php${PHP_VERSION}-memcached \
     php${PHP_VERSION}-gettext php${PHP_VERSION}-opcache php${PHP_VERSION}-cli php${PHP_VERSION}-zip \
-    php${PHP_VERSION}-redis php${PHP_VERSION}-xdebug \
+    php${PHP_VERSION}-redis \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
