@@ -2,12 +2,11 @@ FROM brainbeanapps/base-linux-build-environment:v3.0.0
 
 LABEL maintainer="devops@brainbeanapps.com"
 
-ARG PHP_VERSION=7.2
-
 # Switch to root
 USER root
 
 # Install PHP & various dependencies
+ARG PHP_VERSION=7.2
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
     php-pear \
