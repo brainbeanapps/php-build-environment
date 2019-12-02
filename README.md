@@ -5,4 +5,4 @@
 [![Docker Stars](https://img.shields.io/docker/stars/brainbeanapps/php-build-environment.svg)](https://hub.docker.com/r/brainbeanapps/php-build-environment)
 [![Docker Layers](https://images.microbadger.com/badges/image/brainbeanapps/php-build-environment.svg)](https://microbadger.com/images/brainbeanapps/php-build-environment)
 
-PHP Build Environment is based on latest Ubuntu LTS and is suitable for building & running most PHP-based apps.
+PHP Build Environment is based on Ubuntu LTS and is suitable for building & running most PHP-based apps.
